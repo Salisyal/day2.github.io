@@ -1,0 +1,13 @@
+var abjad = "hello world!";
+
+function balikKata(kata) {
+   	var a = '';
+   	var i = kata.length -1; // 11
+
+   	for(i; i >= 0; i--){
+	   a = a+kata[i];
+   	}
+   	return a;
+} 
+
+console.log(balikKata(abjad))
