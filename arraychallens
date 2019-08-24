@@ -1,0 +1,19 @@
+// setelah jengkol tambahkan kecap
+//setelah santan tambahkan minyak goreng
+//siapakah index ke 3
+//hapus garam tetapi di tambahkan mecin
+
+ var makanan = ["jengkol" , "garam" , "santan" , "penyedap"]
+
+ makanan.splice(1,0, "kecap")
+//  console.log(makanan)
+
+ makanan.splice(4,0, "minyak goreng")
+
+ console.log(makanan);
+
+ console.log(makanan[3])
+
+makanan.splice(2,2, "mecin")
+console.log(makanan)
+
