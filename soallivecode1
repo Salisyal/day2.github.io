@@ -1,0 +1,17 @@
+STORE "NILAI" 100;
+if "NILAI" >= 80;
+	do "nilai A"
+else
+	if "nilai" >=65;
+		do "NILAI B"
+else
+	if "nilai" >=50;
+		do "NILAI c"
+else
+	if "NILAI" >=35
+		do "NILAI d"
+else 
+	if "NILAI" >=0
+		do "NILAI e"
+else "NILAI " <=0
+		do "NILAI Invalid"
